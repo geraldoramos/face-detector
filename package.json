@@ -1,0 +1,40 @@
+{
+  "name": "face-detector",
+  "version": "1.0.0",
+  "description": "A simple module to detect recognizable faces in an image url or file(path)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Geraldo Ramos <geraldo@hackhands.com>",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "fs": "0.0.1-security",
+    "opencv": "^6.0.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geraldoramos/face-detector.git"
+  },
+  "keywords": [
+    "face",
+    "recognition",
+    "face",
+    "detect",
+    "avatar",
+    "validator",
+    "face",
+    "detection",
+    "opencv",
+    "detect",
+    "face",
+    "face",
+    "rec"
+  ],
+  "bugs": {
+    "url": "https://github.com/geraldoramos/face-detector/issues"
+  },
+  "homepage": "https://github.com/geraldoramos/face-detector#readme"
+}
