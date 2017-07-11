@@ -1,6 +1,6 @@
 {
   "name": "face-detector",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "A simple module to detect recognizable faces in an image url or file(path)",
   "main": "index.js",
   "scripts": {

@@ -1,34 +1,37 @@
 # face-detector
-A simple NPM module to detect recognizable faces in an image url or file(path). Opencv is a requirement.
+A simple NPM module to detect faces. The module will return the number of recognizable faces from a given image URL or path.
 
-**Usage**
+Opencv is required.
 
-Just import this module and use a function to detect faces from an image url or image path. The module will return the number of recognizable faces in a given image.
+# Usage
 
-```npm install face-detector```
-
-
-**Using a URL**
+**Install the Module**
 
 ```
-const faceDetect = require('face-detector')
+npm install face-detector
+```
+
+**Example Using an URL**
+
+```javascript
+const face = require('face-detector')
 
 var imageUrl = 'https://avatars2.githubusercontent.com/u/5693297?v=3&s=400'
 
-faceDetect.check(imageUrl,function(result){
+face.detect(imageUrl,function(result){
   console.log(result)
 
 })
 ```
 
-**Using a path**
+**Example Using a Path**
 
-```
-const faceDetect = require('face-detector')
+```javascript
+const face = require('face-detector')
 
 var imagePath = './image.jpg'
 
-faceDetect.check(imagePath,function(result){
+face.detect(imagePath,function(result){
   console.log(result)
 
 })

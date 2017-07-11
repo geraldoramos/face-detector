@@ -2,7 +2,7 @@ const axios = require('axios')
 const fs = require('fs')
 const cv = require('opencv')
 
-exports.check = function(path, cb) {
+exports.detect = function(path, cb) {
 
   if (!/^(f|ht)tps?:\/\//i.test(path)) {
     cv.readImage(path, function(err, im) {
